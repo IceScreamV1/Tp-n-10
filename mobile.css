@@ -1,0 +1,66 @@
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+header {
+    background-color: black;
+    line-height: 30px;
+    position: sticky;
+    top: 0;
+    overflow-y: hidden;
+}
+
+header nav h1 {
+    float: none;
+    text-align: center;
+}
+
+header nav ul {
+    float: none;
+}
+
+header nav ul li {
+    float: none;
+}
+
+
+header nav ul li a  {
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header nav ul li a {
+    padding: 10px;
+    margin-top: -70px;
+    font-size: 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    display: block;
+    float: right;
+    margin-bottom: 1rem;
+}
+
+img:hover{
+    transform: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1rem
+}
+
+header nav h1 a {
+    font-size: 1.5rem;
+}
+

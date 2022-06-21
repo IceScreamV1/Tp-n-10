@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Pc.css">
+    <link rel="stylesheet" media="(max-width: 1100px)" href="tablet.css">
+    <link rel="stylesheet" media="(max-width: 900px )" href="mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E"crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6b95fe8ffe.js" crossorigin="anonymous"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>
+                    <a href="index.html">EsportGaming-Shop</a>
+            </h1>
+            <ul class="menu">
+                <li><a  href="index.html"><i  class="fas fa-solid fa-location-dot"></i> Nous Trouver</a></li>
+                <li><a href="location.html"><i class="fas fa-solid fa-user"></i>Profil</a></li>
+                <li><a href="contact.html"><i  class="fas fa-light fa-cart-shopping"></i>Panier</a></li>
+            </ul>
+            <ul>
+                <li class="burger" onclick="openNav()"><a href="#"><i class="fas fa-solid fa-bars fa-2x"></i></a></li>
+            </ul>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <li><a class="active" href="index.html"><i  class="fas fa-solid fa-location-dot"></i>Nous Trouver</a></li>
+                    <li><a href="index.html"><i class="fas fa-solid fa-user"></i>Profil</a></li>
+                    <li><a href="index.html"><i  class="fas fa-light fa-cart-shopping"></i>Panier</a></li>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- carrousel -->
+    <div class="container" data-autoplay="true">
+    <div class="slide"> <img src="https://images.unsplash.com/photo-1624138123399-16a623b1882d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODZ8fG1vdXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"></div>
+    <div class="slide"> <img src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtaW5nJTIwa2V5Ym9hcmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"></div>
+    <div class="slide"> <img src="https://images.unsplash.com/photo-1592375601764-5dd6be536f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGhlYWRzZXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"></div>
+</div>
+<div class="dots_container" id="indicator"></div>
+
+
+
+    <div class="articles-container">
+        <script src="index.js"></script>
+    <!-- <section class="section"></section> -->
+    <footer>
+        <p>Copyright &#x24B8 - freelance - 2022</p>
+        <div class="top">
+            <a href="#top" class="btns btn-small"><i class="fas fa-arrow-circle-up"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
+
+
